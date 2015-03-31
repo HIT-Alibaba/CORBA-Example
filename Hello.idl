@@ -1,0 +1,8 @@
+module HelloApp
+{
+	interface Hello
+	{
+	string judgeInt(in string inStr);
+	oneway void shutdown();
+	};
+};
